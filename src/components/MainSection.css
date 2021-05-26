@@ -1,0 +1,61 @@
+.main-container {
+ 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     object-fit: contain;
+  }
+  
+  .main-container > h1 {
+    color: rgb(255, 187, 0);
+    font-size: 50px;
+    margin-top: -50px;
+  }
+  
+  .main-container > p {
+    margin-top: 8px;
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .main-buttons {
+    margin-top: 32px;
+  }
+  
+  .main-buttons .button {
+    margin: 6px;
+  }
+  
+
+  
+  @media screen and (max-width: 1200px) {
+    .main-container > h1 {
+      font-size: 35px;
+      margin-top: -60px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .main-container > h1 {
+      font-size: 15px;
+      margin-top: -35px;
+    }
+  
+    .main-container > p {
+      font-size: 10px;
+    }
+  
+    .button-hamburger {
+      display: block;
+      text-decoration: none;
+    }
+  
+    .main-buttons {
+      width: 100%;
+    }
+  }

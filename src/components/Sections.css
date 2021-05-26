@@ -1,0 +1,36 @@
+.sections {
+    padding: 4rem;
+    background: #fff;
+  }
+  .steps {
+      border-image-width: auto;
+  }
+  h1 {
+    text-align: center;
+  }
+    @media only screen and (min-width: 900px) {
+    .content__blog__container {
+      width: 84%;
+    }
+    .steps {
+        width: 84%;
+    }
+  }
+  
+  @media only screen and (min-width: 700px) {
+    .sections__items {
+      display: flex;
+      
+    }
+    .steps {
+        width: 50%;
+     }
+   
+
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .sections__item {
+      margin-bottom: 2rem;
+    }
+  }
