@@ -11,4 +11,8 @@ Based on gpt-2-simple library from Max Woolf - https://minimaxir.com/2019/09/how
 3. Execute all cells from top to bottom
 
 
+## 2. model: with Title labels 
+ in progress
+
+
 
