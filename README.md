@@ -17,7 +17,7 @@ Based on gpt-2-simple library from Max Woolf - https://minimaxir.com/2019/09/how
 Model was trained based on cover letters text bodies with job titles and skills as aditional metadata.
 
 
-##  3 model: KWs (skills) - extraction
+##  3. model: KWs (skills) - extraction
 Based on SpyCy NEP with custom keywords matching (json - file with skills - attached). 
 Extraction algorithm was used for job and cv analysis, as well for similarity matching. 
 
