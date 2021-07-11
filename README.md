@@ -151,12 +151,15 @@ It was a challenge to find the most suitable model, which was able to extract co
 
 Although the used dataset had only ca. 2000 listed skills the final model matched with our expectations, most of the candidate skills in the tested cover letters were correctly identified:
 
+![](images/image15.png)
+
 ![](RackMultipart20210711-4-1hyfruj_html_e0c55c80ac9ca64f.png)
 
 Img 1: Example of original cover letter from training dataset for the position Data Scientist
 
 The created NER (named entity recognition) framework helped us to add into the training dataset skills and job titles. The retrained GPT-2 based model was able to create a cover letter by prompting a set of skills, job title, or combination of both. In the results we were able to see that the generated text was relevant to the passed into the model information:
 
+![](images/image3.png)
 ![](RackMultipart20210711-4-1hyfruj_html_95dcb2a87f430003.png)
 
 Img 2: Model output after prompt text: Data Scientist~python,sql,algorithms
@@ -201,6 +204,10 @@ Natasha
 
 For the UX track, we started out with the goal to create a cover letter making website, which during the first meeting started from there and became a judge project with many other add-ons involved. We knew that we needed to use pen and paper, Figma, Google docs, and other tools like Word and Excel to organize, make drafts, analyze, and plan our way, in order to fulfil the tasks of this track. But since we saw how complex it was going to be, the first thing we did was make a user experience road map of how the user experience should look like and go through it together, documenting it on a word document so we could use this as a guide for the web design and be able to easily edit depending on our needs and findings during the design and what seemed more user friendly.
 
+![](images/image9.png)
+
+![](images/image10.png)
+
 ![](RackMultipart20210711-4-1hyfruj_html_1451b02ab925517b.png) ![](RackMultipart20210711-4-1hyfruj_html_25aef4e07b53afe3.png)
 
 ![](RackMultipart20210711-4-1hyfruj_html_b78ec000e314ec6d.png)
@@ -211,6 +218,7 @@ Next, we create hand drawings of each page the user would be interacting with, t
 
 Meanwhile we also began creating various logo design drafts for the team to choose from and have the draft logos voted on, in the beginning so the team could use it and have a better feeling for what we are doing, as if it is more tangible.
 
+![](images/image14.jpg)
 ![](RackMultipart20210711-4-1hyfruj_html_dfb130b123f6cadb.png) ![](RackMultipart20210711-4-1hyfruj_html_48cd0255daad11f2.png) ![](RackMultipart20210711-4-1hyfruj_html_1eb6b22bfb7649.png) ![](RackMultipart20210711-4-1hyfruj_html_acd5bcf3cb5a3cb6.png)
 
 ![](RackMultipart20210711-4-1hyfruj_html_485c7e9d6796fb91.png)
@@ -225,13 +233,20 @@ Check out the results of our user research here: [https://docs.google.com/forms/
 
 ![](RackMultipart20210711-4-1hyfruj_html_fed9b2830646f509.png)
 
+![](images/image12.png)
+
 Early-stage Flowchart
 
 The journey was much different than I expected, as a lot of what I did as a consultant and a primary market research interviewer came up during this project, which is why I had taken over those areas of the project, at the beginning, but then had to take up all the areas when my colleague had to leave the project due to personal reasons. Even though our colleague left, I was happily surprised with our results, even though they were more of an MVP than I had imagined at first, as the team was highly optimistic for the project to be so complex, I was a bit worried as I for one was not very reliant on my skills at the beginning and even more when other members were leaving the project. But the remaining team being so pumped all the time and being so supportive of one another really helped me get motivated to keep going, do as much as I can to make sure not to let them down and complete this project.
 
+![](images/image7.png)
+
 ![](RackMultipart20210711-4-1hyfruj_html_fdcff67a1cd18df.png) ![](RackMultipart20210711-4-1hyfruj_html_69e795401decf4c2.png) ![](RackMultipart20210711-4-1hyfruj_html_f3af7805b6aa5e4f.png)
  ![](RackMultipart20210711-4-1hyfruj_html_d6f10ac1937f8b1f.png) ![](RackMultipart20210711-4-1hyfruj_html_b683826cd06fe416.png)
 
+![](images/image2.png)  ![](images/image4.png)
+
+![](images/image8.png)  ![](images/image13.png)
 End-stage flowchart
 
 As the final weeks started to approach, we felt stressed and anxious as time was running out, the reality of our experience and having to go back to the studies and videos was so constant, so we were a bit worried about completing in time. But we were also overly excited with what we had been able to accomplish so far.
@@ -266,6 +281,10 @@ And most importantly:
 
 - A deployed model on [https://coverletter.aibdsoft.com](https://coverletter.aibdsoft.com/) ! Yes, this is our real prototype! Give it a try :)
 
+![](images/image1.jpg)
+![](images/image6.png)
+![](images/image11.png)
+
 ![](RackMultipart20210711-4-1hyfruj_html_43145e188a683559.jpg)
 
 ![](RackMultipart20210711-4-1hyfruj_html_947b26e0bc5af38a.png)
@@ -293,6 +312,8 @@ Beyond creating a great app, we overcame challenges and modified our original pl
 We hope you have enjoyed this reflection of the Jobzilla x Techlabs Berlin journey, and we are happy to hear any feedback you may have about these learnings or about this project.
 
 Feel free to reach out with enquiries by writing us on Linkedin! We would be happy to hear your thoughts.
+
+![](images/image5.png)
 
 ![](RackMultipart20210711-4-1hyfruj_html_d74d472e08485bf3.png)
 
@@ -357,34 +378,7 @@ Submitted by Natasha :)
 10. That&#39;s it :)
 
 
-![](images/image1.jpg)
 
-![](images/image2.png)
 
-![](images/image3.png)
 
-![](images/image4.png)
 
-![](images/image5.png)
-
-![](images/image6.png)
-
-![](images/image6.png)
-
-![](images/image7.png)
-
-![](images/image8.png)
-
-![](images/image9.png)
-
-![](images/image10.png)
-
-![](images/image11.png)
-
-![](images/image12.png)
-
-![](images/image13.png)
-
-![](images/image14.jpg)
-
-![](images/image15.png)
