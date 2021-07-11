@@ -1,0 +1,22 @@
+{
+    "name": "cloudtables/client",
+    "description": "API interface to CloudTables",
+    "type": "library",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "keywords": ["CloudTables"],
+    "homepage": "https://cloudtables.com",
+    "authors": [
+        {
+            "name": "SpryMedia Ltd",
+            "homepage": "https://cloudtables.com"
+        }
+	],
+    "autoload": {
+        "psr-4": {
+            "CloudTables\\": ""
+        }
+    },
+    "license": "MIT"
+}

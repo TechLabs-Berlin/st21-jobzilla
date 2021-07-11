@@ -1,0 +1,12 @@
+uploads/*
+tmp/*
+application/config/config.php
+application/config/dashboard_override.php
+application/config/database.php
+application/config/amazon_s3.php
+application/config/amazon_sqs.php
+application/config/email.php
+application/config/social.php 
+application/config/phone_verification.php
+.project
+application/logs/*

@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "3be2a668ec08a3e57d61dae5ef1cce15",
+    "packages": [
+        {
+            "name": "cloudtables/client",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/sprymedia/cloudtables-api-php.git",
+                "reference": "900e84572a4cd104b9eb48469d8219acb8b2d27a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/sprymedia/cloudtables-api-php/get/900e84572a4cd104b9eb48469d8219acb8b2d27a.zip",
+                "reference": "900e84572a4cd104b9eb48469d8219acb8b2d27a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CloudTables\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "SpryMedia Ltd",
+                    "homepage": "https://cloudtables.com"
+                }
+            ],
+            "description": "API interface to CloudTables",
+            "homepage": "https://cloudtables.com",
+            "keywords": [
+                "CloudTables"
+            ],
+            "time": "2020-03-18T15:12:47+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}

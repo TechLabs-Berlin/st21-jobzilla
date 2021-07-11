@@ -1,0 +1,5 @@
+{
+    "require": {
+        "cloudtables/client": "^1.0"
+    }
+}

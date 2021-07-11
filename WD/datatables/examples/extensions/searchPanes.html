@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1.0, user-scalable=no"
+    />
+    <title>Editor example - SearchPanes Integration for Editor</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.datatables.net/select/1.3.1/css/select.dataTables.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.datatables.net/searchpanes/1.1.1/css/searchPanes.dataTables.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../css/editor.dataTables.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.datatables.net/buttons/1.6.2/css/buttons.dataTables.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../resources/syntax/shCore.css"
+    />
+    <link rel="stylesheet" type="text/css" href="../resources/demo.css" />
+    <style type="text/css" class="init"></style>
+    <script
+      type="text/javascript"
+      language="javascript"
+      src="https://code.jquery.com/jquery-3.5.1.js"
+    ></script>
+    <script
+      type="text/javascript"
+      language="javascript"
+      src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      language="javascript"
+      src="https://cdn.datatables.net/select/1.3.1/js/dataTables.select.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      language="javascript"
+      src="https://cdn.datatables.net/searchpanes/1.1.1/js/dataTables.searchPanes.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      language="javascript"
+      src="../../js/dataTables.editor.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      language="javascript"
+      src="https://cdn.datatables.net/buttons/1.6.2/js/dataTables.buttons.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      language="javascript"
+      src="../resources/syntax/shCore.js"
+    ></script>
+    <script
+      type="text/javascript"
+      language="javascript"
+      src="../resources/demo.js"
+    ></script>
+    <script
+      type="text/javascript"
+      language="javascript"
+      src="../resources/editor-demo.js"
+    ></script>
+    <script
+      type="text/javascript"
+      language="javascript"
+      src="https://cyberhobo.github.io/column-filter-widgets-examples/extras/ColumnFilterWidgets/media/js/ColumnFilterWidgets.js"
+    ></script>
+    <script type="text/javascript" language="javascript" class="init">
+      var editor; // use a global for the submit and return data rendering in the examples
+
+      $(document).ready(function () {
+        editor = new $.fn.dataTable.Editor({
+          ajax: "../../controllers/searchPanes.php",
+          table: "#example",
+          fields: [
+            {
+              label: "First name:",
+              name: "users.first_name",
+            },
+            {
+              label: "Last name:",
+              name: "users.last_name",
+            },
+            {
+              label: "Phone #:",
+              name: "users.phone",
+            },
+            {
+              label: "Site:",
+              name: "users.site",
+              type: "select",
+              placeholder: "Select a location",
+            },
+          ],
+        });
+
+        $("#example").on("click", "tbody td:not(:first-child)", function (e) {
+          editor.inline(this);
+        });
+
+        $("#example").DataTable({
+          dom: "PBfrtip",
+          ajax: {
+            url: "../../controllers/searchPanes.php",
+            type: "POST",
+          },
+          columns: [
+            { data: "users.first_name" },
+            { data: "users.last_name" },
+            { data: "users.phone" },
+            { data: "sites.name" },
+          ],
+          columnDefs: [
+            {
+              searchPanes: {
+                show: true,
+              },
+              targets: [0, 1, 2, 3],
+            },
+          ],
+          serverSide: true,
+          select: true,
+          buttons: [
+            { extend: "create", editor: editor },
+            { extend: "edit", editor: editor },
+            { extend: "remove", editor: editor },
+          ],
+        });
+      });
+    </script>
+  </head>
+  <body class="dt-example php">
+    <div class="container">
+      <section>
+        <h1>Editor example</h1>
+        <div class="info"></div>
+        <div class="demo-html"></div>
+        <table id="example" class="display" cellspacing="0" width="100%">
+          <thead>
+            <tr>
+              <th>First name</th>
+              <th>Last name</th>
+              <th>Phone number</th>
+              <th>Site</th>
+            </tr>
+          </thead>
+        </table>
+      </section>
+    </div>
+    <section>
+      <div class="footer">
+        <div class="gradient"></div>
+        <div class="liner"></div>
+      </div>
+    </section>
+  </body>
+</html>

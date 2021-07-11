@@ -1,0 +1,49 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+<?php $this->load->view('metrov5_4/core_metrov5_4/email/header');?>
+
+<tr>
+    <td class="dear_user" valign="top" colspan="2" style="padding-top:50px; color:#333333; padding-bottom: 15px;"><?php echo dashboard_lang("_DEAR"). " ".$first_name.",";?></td>
+</tr>
+
+<tr>
+    <td valign="top" colspan="2" style="color:#333333;">
+        <?php
+
+        echo dashboard_lang('_WELCOME_EMAIL_NOTIFICATION_FIRST_LINE');
+
+        ?>
+    </td>
+</tr>
+
+<tr>
+    <td valign="top" colspan="2" style="color:#333333; padding-top: 22px;">
+        <?php echo dashboard_lang('_LOGIN').": ".base_url()."dashboard"; ?>
+    </td>
+</tr>
+
+<tr>
+    <td valign="top" colspan="2" style="color:#333333;">
+        <?php echo dashboard_lang('_USERNAME').": ".$email; ?>
+    </td>
+</tr>
+
+
+<tr>
+    <td valign="top" colspan="2" style="color:#333333;">
+
+        <?php echo dashboard_lang('_PASSWORD').": ".$password; ?>
+
+    </td>
+
+</tr>
+
+<tr>
+    <td valign="top" colspan="2" style="color:#333333;padding-top: 30px;padding-bottom:30px;">
+        <?php
+
+        echo dashboard_lang('_WELCOME_EMAIL_NOTIFICATION_BOTTOM_LINE');
+        ?>
+    </td>
+</tr>
+
+<?php $this->load->view('metrov5_4/core_metrov5_4/email/footer');?>

@@ -1,0 +1,227 @@
+a.dymek span {
+
+display: none;
+padding: 10px 10px;
+margin-left: 18px;
+width: 330px;
+font-size:15px;
+
+}
+
+a.dymek:hover span {
+border: 1px solid #fff;
+display: inline;
+position:absolute;
+margin: 0px 0px 0 5px;
+background: #E3E3DF;
+color: #000;
+font-family: arial;
+border-radius: 5px;
+text-align: left;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+a.dymekbig span {
+
+display: none;
+padding: 10px 10px;
+margin-left: 18px;
+max-width: 630px;
+font-size:15px;
+
+}
+
+a.dymekbig:hover span {
+border: 1px solid #fff;
+display: inline;
+position:absolute;
+
+margin: 0px 0px 0 5px;
+background: #E3E3DF;
+color: #000;
+font-family: arial;
+border-radius: 5px;
+text-align: left;
+box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.backk{
+background-color: #4b494f;
+}
+
+
+h1{
+font-size:20px;
+}
+
+.BoxHelp {
+        color: #75B90B;
+        text-decoration: none;
+        
+}
+.BoxHelp span {
+        display: none;
+}
+.BoxHelp:hover span {
+        margin: 25px 25px;
+        padding: 5px;
+        display: block;
+        width: auto;
+        position: absolute;
+        font-size: 11px;
+        border: 1px solid #777;
+        background-color: #fdfdfd;
+        color: #333;
+        border-radius: 3px;
+        box-shadow: 3px 3px 3px #aaa;
+}
+
+.inputstle{
+width: 90%;
+border: 1px solid #ccc;
+ border-radius:4px;
+ font-size:13px;
+}
+.inputstleosobowe{
+width: 100%;
+border: 1px solid #ccc;
+ border-radius:4px;
+ font-size:13px;
+}
+
+
+
+.inputstleang{
+width: 100%;
+border: 1px solid #ccc;
+ border-radius:4px;
+ font-size:13px;
+}
+ 
+.inputstlesprache{
+width: 260px;
+border: 1px solid #ccc;
+ border-radius:5px;
+  font-size:13px;
+}
+.inputstlesprache01{
+width: 230px;
+border: 1px solid #ccc;
+ border-radius:5px;
+  font-size:13px;
+}
+
+.adressestyle{
+width: 205px;
+border: 1px solid #ccc;
+ border-radius:5px;
+  font-size:13px;
+}
+.inputbox{
+width: 300px;
+font-size:18px;
+font-weight:bold;
+margin-bottom:25px;
+border: 1px solid #ccc;
+ border-radius:5px;
+}
+.spaceform{
+margin-top:50px;
+margin-bottom:15px;
+height: 12px;
+border: 0;
+border-top: 4px double #5D5E5B;
+ 
+}
+
+
+
+
+
+
+
+.jobstyle{
+width: 90%;
+height:78px;
+border: 1px solid #ccc;
+ border-radius:5px;
+  font-size:13px;
+}
+.jobstyleang{
+width: 100%;
+height:78px;
+border: 1px solid #ccc;
+ border-radius:5px;
+  font-size:13px;
+}
+
+
+
+.jobstylemore{
+width:95%;
+height:100px;
+margin: 10px 10px;
+border: 1px solid #ccc;
+ border-radius:5px;
+  font-size:13px;
+}
+.jobbox{
+ 
+padding: 10px 0px 10px 7px;
+}
+.positionarrow{
+margin-left:520px;
+
+}
+ 
+.BoxHelp {
+        color: #0CA7D3;
+        text-decoration: none;
+        
+}
+.BoxHelp span {
+        display: none;
+}
+.BoxHelp:hover span {
+        margin: 15px 15px;
+        padding: 5px;
+        display: block;
+        width: auto;
+        position: absolute;
+        font-size: 13px;
+        border: 1px solid #0CA7D3;
+        background-color: #f5f9ff;
+        color: #333;
+        border-radius: 3px;
+        box-shadow: 10px 6px 6px #aaa;
+}
+p{
+margin: 0px 0px 1px;
+}
+
+.textareacoverletter{
+height:350px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+.fotofoto{
+background: url("../../../www.app.coolfreecv.com/images/noname.png") no-repeat;
+z-index:100;
+  
+}
+
+.linkRED{
+margin-top:5px; 
+color:#ff0000;
+}
+
+
+
+/* if minimum width window web browser is more than 768px - use tihis function */
+
