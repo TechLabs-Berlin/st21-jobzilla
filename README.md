@@ -247,6 +247,7 @@ The journey was much different than I expected, as a lot of what I did as a cons
 ![](images/image2.png)  ![](images/image4.png)
 
 ![](images/image8.png)  ![](images/image13.png)
+
 End-stage flowchart
 
 As the final weeks started to approach, we felt stressed and anxious as time was running out, the reality of our experience and having to go back to the studies and videos was so constant, so we were a bit worried about completing in time. But we were also overly excited with what we had been able to accomplish so far.
