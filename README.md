@@ -359,32 +359,32 @@ Submitted by Natasha :)
 
 ![](images/image1.jpg)
 
-![](images/image2.jpg)
+![](images/image2.png)
 
-![](images/image3.jpg)
+![](images/image3.png)
 
-![](images/image4.jpg)
+![](images/image4.png)
 
-![](images/image5.jpg)
+![](images/image5.png)
 
-![](images/image6.jpg)
+![](images/image6.png)
 
-![](images/image6.jpg)
+![](images/image6.png)
 
-![](images/image7.jpg)
+![](images/image7.png)
 
-![](images/image8.jpg)
+![](images/image8.png)
 
-![](images/image9.jpg)
+![](images/image9.png)
 
-![](images/image10.jpg)
+![](images/image10.png)
 
-![](images/image11.jpg)
+![](images/image11.png)
 
-![](images/image12.jpg)
+![](images/image12.png)
 
-![](images/image13.jpg)
+![](images/image13.png)
 
 ![](images/image14.jpg)
 
-![](images/image15.jpg)
+![](images/image15.png)
