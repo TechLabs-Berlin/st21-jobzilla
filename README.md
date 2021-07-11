@@ -351,3 +351,6 @@ Submitted by Natasha :)
   4. [https://www.linkedin.com/in/ulvi-amanov-a9224855/](https://www.linkedin.com/in/ulvi-amanov-a9224855/)
   5. [https://www.linkedin.com/in/natasha-owen-bermudez/](https://www.linkedin.com/in/natasha-owen-bermudez/)
 10. That&#39;s it :)
+
+
+images/image1.jpg
