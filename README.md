@@ -357,4 +357,4 @@ Submitted by Natasha :)
 10. That&#39;s it :)
 
 
-images/image1.jpg
+![](images/image1.jpg)
